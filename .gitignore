@@ -3,7 +3,6 @@
 *$py.class
 *~
 .*.sw[po]
-dist/
 *.egg-info
 *.egg
 *.egg/
@@ -31,6 +30,5 @@ Pipfile*
 .vscode/
 data/
 node_modules/
-flower/static/dist
 .parcel-cache
 .python-version
