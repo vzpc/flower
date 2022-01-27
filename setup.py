@@ -56,7 +56,7 @@ setup(
     install_requires=get_requirements('default.txt'),
     test_suite="tests",
     tests_require=get_requirements('test.txt'),
-    package_data={'flower': ['templates/*', 'static/*.*',
+    package_data={'flower': ['templates/*', 'templates/**/*', 'static/*.*',
                              'static/**/*.*', 'static/**/**/*.*']},
     entry_points={
         'celery.commands': [
